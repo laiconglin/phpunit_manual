@@ -1,0 +1,34 @@
+{
+    "name": "phpunit manual example",
+    "description": "A simple php framework based on Yaf",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laiconglin",
+            "email": "laiconglin3@126.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": {
+        "packagist":
+        {
+            "type":"composer",
+            "url":"https://packagist.phpcomposer.com"
+        }
+    },
+    "require": {
+        "PHPOffice/PHPExcel" : "1.8.1",
+        "monolog/monolog" : "1.22.1",
+        "doctrine/dbal" : "v2.5.12",
+        "firebase/php-jwt" : "v4.0.0",
+        "ezyang/htmlpurifier":"v4.9.3",
+        "phpmailer/phpmailer": "v5.2.23",
+        "phpunit/phpunit":"v6.2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Library\\": "application/library/"
+        }
+    }
+}
